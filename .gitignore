@@ -22,3 +22,12 @@ Thumbs.db
 
 # Logs
 *.log
+
+*.npy
+*.joblib
+*.fasta
+X_*.npy
+y_*.npy
+esm_embeddings.npy
+spillover_classifier.joblib
+project_env/

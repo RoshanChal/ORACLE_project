@@ -1,35 +1,25 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+
 # Virtual environments
 project_env/
 esm_env/
 venv/
 .env/
 
-# Python cache
-__pycache__/
-*.pyc
-*dll
-*.so
-*.pyd
-*.csv
-
-# OS junk
-.DS_Store
-Thumbs.db
-
-# Large model caches
-*.pt
-*.pth
-
-# Logs
-*.log
-
+# Data & outputs
 *.npy
-*.joblib
+*.csv
 *.fasta
-X_*.npy
-y_*.npy
-esm_embeddings.npy
-project_env/
+*.txt
 
-# allow trained ORACLE model
+# OS
+.DS_Store
+
+# Models (ignore by default)
+*.joblib
+
+# ALLOW ORACLE MODEL
 !spillover_classifier.joblib

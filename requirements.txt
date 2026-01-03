@@ -1,0 +1,12 @@
+streamlit
+numpy
+pandas
+scikit-learn
+scipy
+matplotlib
+seaborn
+joblib
+torch
+fair-esm
+xgboost
+tqdm

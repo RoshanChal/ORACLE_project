@@ -30,3 +30,6 @@ X_*.npy
 y_*.npy
 esm_embeddings.npy
 project_env/
+
+# allow trained ORACLE model
+!spillover_classifier.joblib
